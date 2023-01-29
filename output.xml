@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230129 11:16:54.772" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230129 11:24:01.255" rpa="false" schemaversion="3">
 <suite id="s1" name="Basic" source="C:\Users\vdi-student\PycharmProjects\pythonProject1\basic.robot">
 <test id="s1-t1" name="List Basic" line="10">
 <for flavor="IN">
@@ -10,70 +10,100 @@
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230129 11:16:54.817" level="INFO">1</msg>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<msg timestamp="20230129 11:24:01.314" level="INFO">1</msg>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </kw>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </iter>
 <iter>
 <var name="${index}">2</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230129 11:16:54.817" level="INFO">2</msg>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<msg timestamp="20230129 11:24:01.314" level="INFO">2</msg>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </kw>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </iter>
 <iter>
 <var name="${index}">3</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230129 11:16:54.817" level="INFO">3</msg>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<msg timestamp="20230129 11:24:01.314" level="INFO">3</msg>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </kw>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.817"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </iter>
 <iter>
 <var name="${index}">4</var>
 <kw name="Log" library="BuiltIn">
 <arg>${index}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230129 11:16:54.822" level="INFO">4</msg>
-<status status="PASS" starttime="20230129 11:16:54.822" endtime="20230129 11:16:54.822"/>
+<msg timestamp="20230129 11:24:01.314" level="INFO">4</msg>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </kw>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.822"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </iter>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.822"/>
+<status status="PASS" starttime="20230129 11:24:01.309" endtime="20230129 11:24:01.314"/>
 </for>
 <kw name="Append To List" library="Collections">
 <arg>${my_list}</arg>
 <arg>${4}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20230129 11:16:54.822" endtime="20230129 11:16:54.822"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
 </kw>
 <kw name="Append To List" library="Collections">
 <arg>${my_list}</arg>
 <arg>wyraz</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20230129 11:16:54.822" endtime="20230129 11:16:54.822"/>
+<status status="PASS" starttime="20230129 11:24:01.314" endtime="20230129 11:24:01.314"/>
+</kw>
+<kw name="Append To List" library="Collections">
+<arg>${my_list}</arg>
+<arg>wyraz</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
 </kw>
 <kw name="Append To List" library="Collections">
 <arg>${my_list}</arg>
 <arg>${slowo}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20230129 11:16:54.822" endtime="20230129 11:16:54.822"/>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>${my_list}</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20230129 11:16:54.822" level="INFO">['1', '2', '3', '4', 4, 'wyraz', 'WSB']</msg>
-<status status="PASS" starttime="20230129 11:16:54.822" endtime="20230129 11:16:54.822"/>
+<msg timestamp="20230129 11:24:01.319" level="INFO">['1', '2', '3', '4', 4, 'wyraz', 'wyraz', 'WSB']</msg>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
 </kw>
-<status status="PASS" starttime="20230129 11:16:54.817" endtime="20230129 11:16:54.822"/>
+<kw name="Remove Duplicates" library="Collections">
+<arg>${my_list}</arg>
+<doc>Returns a list without duplicates based on the given ``list``.</doc>
+<msg timestamp="20230129 11:24:01.319" level="INFO">1 duplicate removed.</msg>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${my_list}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230129 11:24:01.319" level="INFO">['1', '2', '3', '4', 4, 'wyraz', 'wyraz', 'WSB']</msg>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
+</kw>
+<kw name="Remove From List" library="Collections">
+<arg>${my_list}</arg>
+<arg>2</arg>
+<doc>Removes and returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.319"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${my_list}</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230129 11:24:01.324" level="INFO">['1', '2', '4', 4, 'wyraz', 'wyraz', 'WSB']</msg>
+<status status="PASS" starttime="20230129 11:24:01.319" endtime="20230129 11:24:01.324"/>
+</kw>
+<status status="PASS" starttime="20230129 11:24:01.309" endtime="20230129 11:24:01.324"/>
 </test>
-<status status="PASS" starttime="20230129 11:16:54.777" endtime="20230129 11:16:54.827"/>
+<status status="PASS" starttime="20230129 11:24:01.255" endtime="20230129 11:24:01.324"/>
 </suite>
 <statistics>
 <total>
