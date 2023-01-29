@@ -2,13 +2,14 @@
 Library  SeleniumLibrary
 Test Setup  Open My Browser
 *** Variables ***
-@{emails}  email1@wwp.pl  email2@wwp.pl   email3@wwp.pl   email4@wwp.pl   email5@wwp.pl
+@{emails}  email1@wp.pl  email2@wp.pl   email3@wp.pl   email4@wp.pl   email5@wp.pl
 @{passwords}  pass1  pass2  pass3  pass4  pass5
 ${message}    Dziękujemy za założenie nowego konta.
 *** Keywords ***
 Open My Browser
     Open Browser    https://gotujmy.pl/forum/    Chrome
     Maximize Browser Window
+    Execute Javascript  document.body.style.zoom='50%'
     sleep    3
     Scroll Element Into View    //*[@id="tcf277-permissions-modal"]/div[3]/div/button[2]
     Run Keyword And Ignore Error    click button    //*[@id="tcf277-permissions-modal"]/div[3]/div/button[2]
