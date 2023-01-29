@@ -18,8 +18,11 @@ List Basic
     append to list  ${my_list}  ${slowo}
     Log     ${my_list}
 
-    remove duplicates   ${my_list}
+    ${my_list}  remove duplicates   ${my_list}
     Log     ${my_list}
 
-    Remove From list    ${my_list}  2
+    Remove From list    ${my_list}  0
+    Remove Values From List   ${my_list}    2  3
     Log     ${my_list}
+
+    List Should Contain Value  ${my_list}  WSB
